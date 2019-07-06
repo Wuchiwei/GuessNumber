@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     @IBAction func compareWithTargetNumber(_ sender: UIButton) {
         
         guard let text = inputTextField.text,
-              let number = Int(text)
+              let inputNumber = Int(text)
         else {
             
             hintLabel.text = "請輸入數字！"
@@ -59,11 +59,11 @@ class ViewController: UIViewController {
             return
         }
         
-        if number > targetNumber {
+        if inputNumber > targetNumber {
             
             hintLabel.text = hintForSmallerNumber
         
-        } else if number < targetNumber {
+        } else if inputNumber < targetNumber {
             
             hintLabel.text = hintForBiggerNumber
             
