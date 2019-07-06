@@ -1,6 +1,6 @@
 # GuessNumber
 
-[snap_shot](https://github.com/Wuchiwei/GuessNumber/blob/master/images/app_snapshot.png)
+![image](https://github.com/Wuchiwei/GuessNumber/blob/master/images/app_snapshot.png)
 
 ### 規格
 * 利用程式碼，預先隨機產生一個介於 0~100 的整數，儲存於 `targetNumber` 這個變數裡面，準備讓使用者來猜。
